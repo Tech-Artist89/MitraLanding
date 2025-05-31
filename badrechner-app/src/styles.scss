@@ -1,0 +1,37 @@
+@use 'bootstrap/scss/bootstrap';
+@import url('https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css');
+
+// Custom CSS Variables
+:root {
+  --primary-color: #0066cc;
+  --primary-dark: #004499;
+  --secondary-color: #f8f9fa;
+  --accent-color: #28a745;
+  --text-color: #333;
+  --text-muted: #666;
+  --border-color: #dee2e6;
+  --border-light: #e3e9ff;
+  --shadow-light: 0 2px 8px rgba(0, 102, 204, 0.1);
+  --shadow-medium: 0 4px 16px rgba(0, 102, 204, 0.15);
+  --shadow-heavy: 0 8px 32px rgba(0, 0, 0, 0.1);
+  --gradient-primary: linear-gradient(135deg, #0066cc 0%, #004499 100%);
+  --gradient-bg: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+// Global Styles
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: var(--text-color);
+  line-height: 1.6;
+  background: var(--gradient-bg);
+  margin: 0;
+  padding: 0;
+}
