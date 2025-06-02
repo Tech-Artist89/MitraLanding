@@ -39,8 +39,8 @@ export class BathroomDataService {
         id: 'wc',
         name: 'WC',
         selected: false,
-        imageUrl: 'assets/images/checkboxes/wc-icon.svg',
-        iconUrl: 'assets/images/checkboxes/wc-icon.svg',
+        imageUrl: 'assets/images/checkboxes/wc-icon-120x120.jpeg',
+        iconUrl: 'assets/images/checkboxes/wc-icon-120x120.jpeg',
         popupDetails: {
           options: [
             {
